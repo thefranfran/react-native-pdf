@@ -95,12 +95,12 @@ public class PdfManager extends SimpleViewManager<PdfView> implements RNPDFPdfVi
     }
 
     @Override
-    public void setShowsHorizontalScrollIndicator(PdfView view, boolean value) {
+    public void showsHorizontalScrollIndicator(PdfView view, boolean value) {
         // NOOP on Android
     }
 
     @Override
-    public void setShowsVerticalScrollIndicator(PdfView view, boolean value) {
+    public void showsVerticalScrollIndicator(PdfView view, boolean value) {
         // NOOP on Android
     }
 
